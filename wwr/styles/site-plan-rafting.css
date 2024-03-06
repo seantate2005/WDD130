@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=cabin&family=overpass&display=swap');
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=cabin|overpass">
 body{
  font-family: var(--paragraph-cabin);
  max-width: 960px; 
