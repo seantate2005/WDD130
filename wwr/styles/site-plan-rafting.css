@@ -1,5 +1,5 @@
-@import(https://fonts.google.com/specimen/Cabin?query=cabin);
-@import(https://fonts.google.com/specimen/Overpass?query=overpass);
+@import url(https://fonts.google.com/specimen/Cabin?query=cabin);
+@import url(https://fonts.google.com/specimen/Overpass?query=overpass);
 body{
  font-family: var(--paragraph-cabin);
  max-width: 960px; 
