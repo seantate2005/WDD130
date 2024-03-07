@@ -22,9 +22,8 @@ img{
     background-color: purple;
 }
 
-p{
-    padding:0px; 
-}
+p{ padding: 0; }
+
 aside{
     width:300px;
     margin: 100px;
