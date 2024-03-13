@@ -44,6 +44,11 @@ aside img{
     width: 200px;
     height: auto;
 }
+
+aside{
+    position:relative;
+}
+
 main img{
     width:150px;
     height:auto;
