@@ -29,9 +29,6 @@ img{
     
 }
 
-main img{
-    float:right;
-}
 aside{
     width:300px;
     text-align: center;
@@ -41,8 +38,7 @@ aside h2{
     position:absolute;
     top:560px; 
     left:110px;
-    color:navy;
-    border:black; 
+    color: maroon;
 }
 aside img{
     width: 200px;
@@ -51,6 +47,7 @@ aside img{
 main img{
     width:150px;
     height:auto;
+    float:right;
 }
 
 p{
