@@ -53,8 +53,9 @@ body{
     position:absolute;
     top: 200px;
     left: 198px;
-    color: purple;
+    color: orange;
     text-align:center;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 
 }
 
