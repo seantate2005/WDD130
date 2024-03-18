@@ -80,11 +80,16 @@ nav{
     color: #3004f5; 
 }   
 
-header, footer{
+header, footer, .grid{
     max-width: 840px;
     margin: 0 auto;
+
 }
 
+.grid {
+    display: grid;
+    align-items: center;
+}
 nav a{
     display:block;
     padding: 0.5rem;
@@ -97,11 +102,6 @@ nav a{
 h1{
     border-bottom: #000;
     position: center;
-}
-
-.grid {
-    display: grid; 
-    align-items: center; 
 }
 
 main {
