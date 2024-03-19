@@ -49,12 +49,12 @@ figcaption{
     background-color: hotpink;
     color: white;
 }
-.grid-item4{
+figure{
     display: inline-block;
     max-block-size: 400px;
     border: solid;
     grid-gap: 30px;
-    margin-left: 80px;
+    margin-left: 50px;
 }
 body{
     background-color: #55ff88;
@@ -63,12 +63,9 @@ img{
     width: 200px;
 }
 
-p{
-    
-}
 h2{
     text-align: center; 
-    color:navy;
+    color:purple;
     font-family:Georgia, 'Times New Roman', Times, serif;
     font-size: 50px;
 }
@@ -90,7 +87,7 @@ article{
     top: 350px;
     left:20px;
     background-color: #55ff88; 
-    opacity: 50%;
+    opacity: 75%;
     height:200px;
 }
 
