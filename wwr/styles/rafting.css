@@ -1,26 +1,83 @@
 @import url('https://fonts.googleapis.com/css2?family=Cabin+Sketch:wght@400;700&display=swap');
 .root{
     color:#86cddf; 
-    
+}
 
+.grid-item {
+    display: grid; 
+    grid-template-columns: auto auto auto auto;
+    padding: 50px;
+    text-align: center;
+    font-size: 50px;
+    text-decoration: bold;
+    float: left; 
+    margin-right: 240px;
+    top:10px
+}
+
+.grid-item2 {
+    display: flex; 
+    background-color: hotpink;
+    grid-template-columns: auto auto auto auto;
+    border-style: solid; 
+    padding: 20px;
+    text-align: center;
+    font-size: 30px;
+    text-decoration: bold;
+    float: left; 
+    margin: 10px;
+    color: navy;
+    color: white; 
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.grid-item3 {
+    grid-template-columns: auto auto auto;
+    border: solid;
+    display: inline-block; 
+    background-color: hotpink;
+    max-width: 250px;
+    max-block-size: 250px; 
+    padding: 20px;
+    margin-right: 115px;
+    margin-left: 115px;
+    grid-gap: 20px;
+    color: white; 
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+figcaption{
+    text-align:center;
+    font-size: 30px; 
+    background-color: hotpink;
+    color: white;
+}
+.grid-item4{
+    display: inline-block;
+    max-block-size: 400px;
+    border: solid;
+    grid-gap: 30px;
+    margin-left: 80px;
 }
 body{
     background-color: #55ff88;
 }
 img{
-    width: 100px;
+    width: 200px;
 }
 
 p{
-    color:#a52a2a; 
-    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
 }
 h2{
+    text-align: center; 
     color:navy;
     font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: 50px;
 }
+
 a{
-    text-decoration: none;
+    text-decoration: none; 
+    color: white
 }
 
 .hero article img{
@@ -51,10 +108,11 @@ body{
 }
 
 .hero h1{
-    position:absolute;
-    top: 200px;
-    left: 280px;
-    color: orange;
+    position: absolute;
+    top: 80px;
+    left: 470px;
+    font-size: 50px;
+    color: purple;
     text-align:center;
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 
@@ -64,3 +122,4 @@ section img{
     display: block; 
     top:200px
 }
+
