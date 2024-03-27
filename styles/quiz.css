@@ -1,0 +1,19 @@
+body{
+    background-color: navy ;
+    color: orange;
+    text-align:left;
+    font-size:20px;
+}
+
+.q4 p{
+    background-color: black;
+    text-align:center;
+    font-size: 17px;
+}
+button{
+    font-size:20px;
+    border-color:orange;
+    border-width: 10px;
+    background-color: green;
+    color: white;
+}
