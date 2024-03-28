@@ -16,7 +16,7 @@
 
 .grid-item2 {
     display: flex; 
-    background-color: black;
+    background-color: purple;
     grid-template-columns: auto auto auto auto;
     border-style: solid; 
     padding: 10px;
@@ -28,6 +28,9 @@
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
+.grid-item2:hover {
+    background-color:darkgreen;
+}
 .grid-item3 {
     grid-template-columns: auto auto auto;
 
@@ -39,16 +42,16 @@
     margin-right: 115px;
     margin-left: 115px;
     grid-gap: 20px;
-    color: darkgreen;
+    color: yellow;
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 figcaption{
     text-align:center;
     font-size: 30px; 
-    background-color: black;
-    color: lightblue;
+    background-color: yellow;
+    color: purple;
 }
-figure{
+.fun figure{
     display: inline-block;
     max-block-size: 20px;
     border: solid;
@@ -57,39 +60,43 @@ figure{
     color:yellow;
 }
 body{
-    background-color: lightblue;
+    background-color: purple;
 }
 img{
     width: 200px;
 }
 
 h2{
-    text-align: center; 
-    color:darkgreen;
+    color:yellow;
     font-family:Georgia, 'Times New Roman', Times, serif;
     font-size: 50px;
+    margin-left: 50px;
 }
-
+.title h1{
+    color:yellow;
+    font-size: 50px;
+}
 a{
     text-decoration: none; 
-    color: lightblue;
+    color: yellow;
 }
 
 .hero article img{
-    float: right;
-    width:300px; 
+    float: inline-start;
+    width:200px; 
     height: 200px;
-    
+    top:150px;
     
 }
 
 article{
     position:absolute;
-    top: 350px;
+    top: 320px;
     left:20px;
-    background-color: lightblue; 
+    background-color: darkgreen;
     opacity: 75%;
-    height:200px;
+    height:400px;
+    width:100%;
 }
 
 body{
@@ -97,6 +104,9 @@ body{
     max-height: 100%;
 }
 
+p{
+    color:yellow;
+}
 .hero img{
     display: block; 
     width: 1900px; 
@@ -108,7 +118,7 @@ body{
     top: 80px;
     left: 470px;
     font-size: 50px;
-    color: darkgreen;
+    color: yellow;
     text-shadow: black;
     text-align:center;
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -131,4 +141,179 @@ footer img{
 
 .footerp{
     text-align: center;
+    color:yellow
 }
+
+.team figure {
+	display: inline-grid;
+	flex-direction: row;
+	align-items: center;
+    margin-left: 60px;
+}
+
+.team figcaption {
+	
+	order: -1;
+	
+	display: inline-grid;
+        flex-direction: row;
+        justify-content: center;
+	
+        width: 190px;
+        background: darkorchid;
+        color: yellow;
+        padding: 10px 5px 10px 5px;
+}
+
+.contactform{
+    width:50%;
+    background-color: darkgreen;
+    color: yellow;
+    font-size: 20px;
+}
+
+input[type=text]{
+    width:90%; 
+    padding: 12px 20px; 
+    margin: 8px 0; 
+    border: 5px solid darkorchid;
+    box-sizing: border-box;
+}
+
+input[type=text]:focus {
+background-color: yellow;
+}
+
+input[type=email]{
+    width:90%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    border: 5px solid darkorchid; 
+    box-sizing: border-box;
+}
+
+input[type=email]:focus{
+    background-color: yellow;
+}
+
+input[type=textarea]{
+    width:100%;
+    height:150px;
+    padding: 12px 20px; 
+    box-sizing: border-box;
+    border: 5px solid darkorchid;
+    font-size: 14px; 
+    resize:none; 
+}
+
+input[type=textarea]:focus{
+    background-color: yellow;
+
+}
+
+
+
+.container{
+    display: inline-block;
+    position: relative;
+    padding-left: 5px;
+    margin-bottom: 20px;
+    cursor: pointer;
+    font-size: 22px;
+  }
+  
+  
+  .container input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+  }
+
+  .checkmark {
+    position: absolute;
+    top: 30;
+    left: 30;
+    height: 25px;
+    width: 25px;
+    background-color: #eee;
+  }
+
+  
+.container:hover input ~ .checkmark {
+    background-color: yellow;
+  }
+  
+  .container input:checked ~ .checkmark {
+    background-color: purple;
+  }
+  
+  .checkmark:after {
+    content: "";
+    position: absolute;
+    display: none;
+  }
+  
+  .container input:checked ~ .checkmark:after {
+    display: block;
+  }
+  
+  
+  .container .checkmark:after {
+    left: 9px;
+    top: 5px;
+    width: 5px;
+    height: 10px;
+    border: solid yellow;
+    border-width: 0 3px 3px 0;
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+  }
+
+  button{
+    background-color: yellow;
+    color: purple;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 18px;
+    transition-duration:  0.4s;
+    width: 50%;
+    margin-left: 180px;
+  }
+
+  button:hover{
+    background-color:purple;
+    color:yellow;
+  }
+
+  .contact h1{
+    color:yellow;
+    font-size: 50px
+    
+  }
+
+  .column{
+    float:left;
+    width:50%;
+    background-color: yellow;
+  }
+
+  .row{
+    margin-left: 100px;
+  }
+
+  .row li{
+    font-size: 30px;
+    color: purple;
+  }
+
+  .column iframe{
+    width:100%;
+  }
+  .row h2{
+    margin-left: 220px;
+    color:purple
+  }
