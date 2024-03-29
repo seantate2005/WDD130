@@ -3,8 +3,8 @@
     color:#86cddf; 
 }
 .happy h2{
-  margin-left: 150px;
-  text-align: center;
+  margin-left: 100px;
+  text-align: left;
 }
 .grid-item {
     display: grid; 
@@ -124,7 +124,6 @@ p{
     left: 470px;
     font-size: 50px;
     color: yellow;
-    text-shadow: black;
     text-align:center;
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 
@@ -254,8 +253,8 @@ input[type=textarea]:focus{
 
   .checkmark {
     position: absolute;
-    top: 30;
-    left: 30;
+    top: 40px;
+    left: 30px;
     height: 25px;
     width: 25px;
     background-color: #eee;
@@ -335,7 +334,7 @@ input[type=textarea]:focus{
   }
 
   .row ul{
-    text-align: center;
+    text-align: left;
     height: 300px;
     list-style: none;
   }
@@ -343,7 +342,7 @@ input[type=textarea]:focus{
   .column iframe{
     width:100%;
   }
-  .row h2{
-    margin-left: 220px;
-    color:purple
+  .column h2{
+    color:purple;
+    text-align: center
   }
