@@ -291,7 +291,7 @@ input[type=textarea]:focus{
     transform: rotate(45deg);
   }
 
-  .button1
+  .button1{
     background-color: yellow;
     color: purple;
     padding: 15px 32px;
