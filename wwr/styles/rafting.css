@@ -2,7 +2,9 @@
 .root{
     color:#86cddf; 
 }
-
+.happy h2{
+  margin-left: 150px;
+}
 .grid-item {
     display: grid; 
     grid-template-columns: auto auto auto auto;
@@ -70,17 +72,12 @@ h2{
     color:yellow;
     font-family:Georgia, 'Times New Roman', Times, serif;
     font-size: 50px;
-    text-align: center; 
+   
     
 }
 .title h1{
     color:yellow;
     font-size: 50px;
-    margin-right: 300px;
-}
-
-.happy h2{
-  margin-right: 400px;
 }
 a{
     text-decoration: none; 
@@ -176,8 +173,12 @@ footer img{
     background-color: darkgreen;
     color: yellow;
     font-size: 20px;
+    margin-left: 400px;
 }
 
+.contactform h1{
+  text-align: center;
+}
 input[type=text]{
     width:90%; 
     padding: 12px 20px; 
