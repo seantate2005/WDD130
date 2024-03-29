@@ -70,11 +70,17 @@ h2{
     color:yellow;
     font-family:Georgia, 'Times New Roman', Times, serif;
     font-size: 50px;
-    margin-left: 50px;
+    text-align: center; 
+    
 }
 .title h1{
     color:yellow;
     font-size: 50px;
+    margin-right: 300px;
+}
+
+.happy h2{
+  margin-right: 400px;
 }
 a{
     text-decoration: none; 
@@ -303,6 +309,7 @@ input[type=textarea]:focus{
 
   .row{
     margin-left: 100px;
+    margin-bottom: 100px; 
   }
 
   .row li{
@@ -310,6 +317,12 @@ input[type=textarea]:focus{
     color: purple;
   }
 
+  .row ul{
+    text-align: center;
+    height: 300px;
+    list-style: none;
+  }
+ 
   .column iframe{
     width:100%;
   }
