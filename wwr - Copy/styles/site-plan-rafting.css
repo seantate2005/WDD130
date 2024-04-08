@@ -19,9 +19,7 @@ body{
     --nav-hover-link-color:#fc5861;
     --nav-hover-background-color: #86cddf;
 }
-tr:{
-    border: 3px solid yellow;
-}
+
 body{
     font-family: var(--paragraph-overpass);
     max-width: 960px; 
