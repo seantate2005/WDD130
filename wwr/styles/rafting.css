@@ -1,369 +1,45 @@
 @import url('https://fonts.googleapis.com/css2?family=Cabin+Sketch:wght@400;700&display=swap');
-.root{
-    color:#86cddf; 
-}
-.happy h2{
-  margin-left: 100px;
-  text-align: left;
-}
-.grid-item {
-    display: grid; 
-    grid-template-columns: auto auto auto auto;
-    padding: 50px;
-    text-align: center;
-    font-size: 50px;
-    float: left; 
-    margin-right: 40px;
-    top:10px
-}
-
-.grid-item2 {
-    display: flex; 
-    background-color: purple;
-    grid-template-columns: auto auto auto auto;
-    border-style: solid; 
-    padding: 10px;
-    text-align: center;
-    font-size: 30px;
-    float: left; 
-    margin: 0px;
-    color: yellow;
-    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-}
-
-.grid-item2:hover {
-    background-color:darkgreen;
-}
-.grid-item3 {
-    grid-template-columns: auto auto auto;
-
-    display: inline-block; 
-    
-    max-width: 250px;
-    max-block-size: 250px; 
-    padding: 20px;
-    margin-right: 115px;
-    margin-left: 115px;
-    grid-gap: 20px;
-    color: yellow;
-    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-}
-
-figcaption{
-    text-align:center;
-    font-size: 30px; 
-    background-color: yellow;
-    color: purple;
-}
-.fun figure{
-    display: inline-block;
-    max-block-size: 20px;
-    border: solid;
-    grid-gap: 30px;
-    margin-left: 50px;
-    color:yellow;
-}
-body{
-    background-color: purple;
-}
-img{
-    width: 200px;
-}
-
-.home2 h1{
-    color: yellow; 
-    size: 40px; 
-}
-h2{
-    color:yellow;
-    font-family:Georgia, 'Times New Roman', Times, serif;
-    font-size: 50px;
-    text-align:center; 
-   
-    
-}
-.title h1{
-    color:yellow;
-    font-size: 50px;
-}
-a{
-    text-decoration: none; 
-    color: yellow;
-}
-h1{
- margin-left: 200px;
-}
-.hero article img{
-    float: inline-start;
-    width:200px; 
-    height: 200px;
-    top:150px;
-    
-}
-
-article{
-    position:absolute;
-    top: 320px;
-    left:20px;
-    background-color: darkgreen;
-    opacity: 75%;
-    height:400px;
-    width:100%;
+:root{
+    color:darkgreen;
 }
 
 body{
-    max-width: 100%; 
-    max-height: 100%;
+    background-color:orchid;
 }
 
 p{
-    color:yellow;
+    color:indigo;
+    font-size:30px; 
+}
+
+ol{
+    color: indigo;
+    font-size: 25px; 
+    
+}
+
+h2{
+    color: #bcfd49;
+    font-size: 80px;
+    font-family:'Brush Script MT', cursive;
+; 
+}
+
+h1{
+    color: #bcfd49;
+    font-size:100px;
+    font-family:'Brush Script MT', cursive;
 }
 .hero img{
-    display: block; 
-    width: 1900px; 
-    height: 500px;
+    display:block;
+    width:100%;
+    height:auto;  
 }
 
 .hero h1{
-    position: absolute;
-    top: 80px;
-    left: 470px;
-    font-size: 50px;
-    color: yellow;
-    text-align:center;
-    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-
+    position:absolute;
 }
 
-section img{
-    display: block; 
-    top:200px;
-    border-color: yellow;
+.hero article{
+    position:absolute;
 }
-
-
-
-footer img{
-    height: 50px;
-    width: 50px;
-    float:right;
-}
-
-.footerp{
-    text-align: center;
-    color:yellow
-}
-
-.team figure {
-	display: inline-grid;
-	flex-direction: row;
-	align-items: center;
-    margin-left: 60px;
-}
-
-.team figcaption {
-	
-	order: -1;
-	
-	display: inline-grid;
-        flex-direction: row;
-        justify-content: center;
-	
-        width: 190px;
-        background: darkorchid;
-        color: yellow;
-        padding: 10px 5px 10px 5px;
-}
-
-.contactform2{
-    width:50%;
-    background-color: darkgreen;
-    color: yellow;
-    font-size: 20px;
-    margin-left: 400px;
-}
-
-.contactform h1{
-  text-align: center;
-}
-input[type=text]{
-    width:90%; 
-    padding: 12px 20px; 
-    margin: 8px 0; 
-    border: 5px solid darkorchid;
-    box-sizing: border-box;
-}
-
-input[type=text]:focus {
-background-color: yellow;
-}
-
-input[type=email]{
-    width:90%;
-    padding: 12px 20px;
-    margin: 8px 0;
-    border: 5px solid darkorchid; 
-    box-sizing: border-box;
-}
-
-input[type=email]:focus{
-    background-color: yellow;
-}
-
-input[type=textarea]{
-    width:100%;
-    height:150px;
-    padding: 12px 20px; 
-    box-sizing: border-box;
-    border: 5px solid darkorchid;
-    font-size: 14px; 
-    resize:none; 
-}
-
-input[type=textarea]:focus{
-    background-color: yellow;
-
-}
-
-
-
-.container{
-    display: inline-block;
-    position: relative;
-    padding-left: 5px;
-    margin-bottom: 20px;
-    cursor: pointer;
-    font-size: 22px;
-  }
-  textarea{
-    width:100%;
-    height:150px; 
-    padding:12px 20px; 
-    box-sizing: border-box; 
-    border: 2px solid purple;
-    border-radius: 4px;
-    background-color: white; 
-    font-size: 16px; 
-    resize: none;  
-
-  }
-  
-  textarea:focus{
-   background-color: yellow;  
-  } 
-  .container input {
-    position: absolute;
-    opacity: 0;
-    cursor: pointer;
-  }
-
-  .checkmark {
-    position: absolute;
-    left: 30px;
-    height: 25px;
-    width: 25px;
-    background-color: #eee;
-  }
-
-  
-.container:hover input ~ .checkmark {
-    background-color: yellow;
-  }
-  
-  .container input:checked ~ .checkmark {
-    background-color: purple;
-  }
-  
-  .checkmark:after {
-    content: "";
-    position: absolute;
-    display: none;
-  }
-  
-  .container input:checked ~ .checkmark:after {
-    display: block;
-  }
-  
-  
-  .container .checkmark:after {
-    left: 9px;
-    top: 5px;
-    width: 5px;
-    height: 10px;
-    border: solid yellow;
-    border-width: 0 3px 3px 0;
-    -webkit-transform: rotate(45deg);
-    -ms-transform: rotate(45deg);
-    transform: rotate(45deg);
-  }
-
-  .button1{
-    background-color: yellow;
-    color: purple;
-    padding: 15px 32px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 16px;
-    border-radius: 18px;
-    transition-duration:  0.4s;
-    width: 50%;
-    margin-left: 180px;
-  }
-
-  button:hover{
-    background-color:purple;
-    color:yellow;
-  }
-
-  .contact h1{
-    color:yellow;
-    font-size: 50px
-    
-  }
-
-  .column{
-    float:left;
-    width:50%;
-    background-color: yellow;
-  }
-
-  .row{
-    margin-left: 100px;
-    margin-bottom: 100px; 
-  }
-
-  .row li{
-    font-size: 30px;
-    color: purple;
-  }
-
-  .row ul{
-    text-align: left;
-    height: 300px;
-    list-style: none;
-  }
- 
-  .column iframe{
-    width:100%;
-  }
-  .column h2{
-    color:purple;
-    text-align: center
-  }
-  .grid-container2{
-    display:grid;
-    grid-template-columns: 280px 200px 280px 200px;
-    padding: 300px; 
-  }
-  .grid-item5{
-    font-size:40px; 
-  }
-
-  .grid-item5 img{
-    width:400px; 
-    height: 400px;
-  }
-
-  
