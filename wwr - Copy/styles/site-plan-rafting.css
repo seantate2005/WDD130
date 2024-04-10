@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Cabin+Sketch:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cabin+Sketch:wght@400;700&family=Protest+Guerrilla&display=swap');
+body{
+ font-family: var(--paragraph-cabin);
+ max-width: 960px; 
+ padding: 20px;
+}
+:root{
+    --primary-color:#86cddf;
+    --secondary-color:#55ff88; 
+    --accent1-color:#a52a2a;  
+    --accent2-color: #fc5861;
+    
+    --heading-font: 'cabin', serif;
+    --paragraph-font: 'overpass', serif;
+
+    --nav-background-color:#55ff88;
+    --nav-link-color:#a52a2a;
+    --nav-hover-link-color:#fc5861;
+    --nav-hover-background-color: #86cddf;
+}
+
+body{
+    font-family: var(--paragraph-overpass);
+    max-width: 960px; 
+    padding: 20px; 
+}
+
+h1, h2, h3, h4, h5, h6{
+    font-family: var(--heading-cabin);
+    color: var(--primary-color);
+}
+
+header{
+    padding:20px; 
+    background-color: var(--accent1-color);
+}
+
+p {
+    padding: 25px;
+}
+
+nav{
+    background-color: var(--nav-background-color);
+    font-size: 1.2rem; 
+    display: flex;
+}
+
+nav a{
+    display: block; 
+    color: var(--nav-link-color); 
+    text-decoration: none; 
+    padding: 1rem;
+}
+
+nav a:link, nav a:visited{
+    color: var(--nav-link-color);
+}
+
+nav a:hover{
+    color: var(--nav-hover-link-color);
+    background-color: var(--nav-hover-background-color);
+}
