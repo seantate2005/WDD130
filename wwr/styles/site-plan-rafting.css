@@ -19,7 +19,7 @@ body{
     --nav-hover-link-color:#fc5861;
     --nav-hover-background-color: #86cddf;
 }
-tr:{
+tr{
     border: 3px solid yellow;
 }
 body{
@@ -63,3 +63,10 @@ nav a:hover{
     color: var(--nav-hover-link-color);
     background-color: var(--nav-hover-background-color);
 }
+
+.trip h1{
+    font-size: 100px;
+}
+
+.reservatio
+]
